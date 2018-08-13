@@ -1,0 +1,24 @@
+controller_list:
+  - name: fake_robot_controller
+    joints:
+      - x_joint
+      - y_joint
+      - z_joint
+      - arm_joint_1
+      - arm_joint_2
+      - arm_joint_3
+      - arm_joint_4
+  - name: fake_arm_controller
+    joints:
+      - arm_joint_1
+      - arm_joint_2
+      - arm_joint_3
+      - arm_joint_4
+  - name: fake_base_controller
+    joints:
+      - x_joint
+      - y_joint
+      - z_joint
+  - name: fake_arm_ee_group_controller
+    joints:
+      []
